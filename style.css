@@ -1,0 +1,88 @@
+* {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;}  
+.herobg {
+    background-image: url(media/home-hero-gradient.svg);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(18, 29, 51);
+    padding: 1em 0 1em 0;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.info {
+    text-align: center;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, rgb(9, 86, 191), rgb(4, 64, 143), rgb(2, 54, 120), rgb(4, 64, 143), rgb(9, 86, 191));
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    z-index: 10;
+}
+.menuLogo{
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+}
+.logo {
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+    margin-right: 1em;
+}
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+ .headerlist{
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    list-style: none;
+    color:rgb(204, 210, 222);
+    font-size: 1rem;
+    font-weight: 500;
+    z-index: 10;
+ }
+ .header-btn{
+     display: flex;
+     justify-content: space-between;
+     gap: 0.8em;
+     margin-right: 5em;
+ }
+ .header-btn1{
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    border: 0.125em solid white;
+    border-radius: 10%;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0em 1.3em 0em 0em;
+
+
+ }
+ .header-btn2{
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    border: 0.125em solid rgb(252, 252, 252);
+    border-radius: 10%;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 0em 1.3em 0em 0em;
+ }
+ .header-btn3 {
+    border: 0.01em solid black;
+    margin-right: 0.7em;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border-radius: 50%;
+ }
