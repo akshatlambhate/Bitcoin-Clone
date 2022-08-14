@@ -15,14 +15,14 @@ for(i=0;i<acc.length;i++){
 }
 function changeimg(){
   const image = [
-    'url("media/BTC icon.svg")',
-    'url("media/ETH icon.svg")',
-    'url("media/shoppingcart.png")'
+    "media/BTC icon.svg",
+    "media/ETH icon.svg",
+    "media/shop.png"
   ]
-  let change = document.getElementById("imgchange")
+  let change = document.getElementById("changecoin")
   const bg = image[Math.floor(Math.random()*image.length)];
-  change.style.backgroundImage = bg;
+  change.src = bg;
   
 }
-setInterval(changeimg , 3000);
+setInterval(changeimg ,1500);
 

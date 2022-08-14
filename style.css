@@ -25,8 +25,9 @@
     padding: 0.75rem 1rem;
     z-index: 10;
 }
-#imgchange {
+/* #imgchange {
    position: fixed;
+   background-position: center;
    width:3rem ;
    bottom: 50px;
    right: 30px;
@@ -34,9 +35,54 @@
    border-radius: 50%;
    background-image: url("media/BTC\ icon.svg");
    background-repeat: no-repeat;
-   background-size: cover;
+   background-color: #0C6CF2;
+   animation: rotation 3s infinite ;
+   transform-style: preserve-3d;
+} */
+#imgchange {
+   display: flex;
+   gap: 0.5rem;
+   position: fixed;
+   background-position: center;
+   width: fit-content;
+   bottom: 50px;
+   right: 30px;
+   padding: 0.7rem;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   background-color: #0C6CF2;
+   border: none;
 
 }
+#imgchange p {
+   display: none;
+}
+#changecoin {
+   animation: rotation 2s infinite;
+
+
+}
+ @keyframes rotation {
+   from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+} 
+
+#imgchange:hover {
+   border-radius: 3rem;
+   padding-right: 1rem;
+}
+#imgchange:hover p {
+  display: inline;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
 .menuLogo{
     display: flex;
     align-items: center;
@@ -129,6 +175,7 @@
     display: inline-flex;
     justify-items: flex-start;
     justify-content:center;
+    align-items: center;
     background-color: rgb(239, 236, 254);
     padding: 1rem;
     width: fit-content;
@@ -143,7 +190,7 @@
  }
  .walletsvg{
     padding: 0;
-    width: 2rem;
+    width: 1.7rem;
    
  }
 
@@ -309,5 +356,24 @@
    text-decoration: none;
    border: none;
    width: 200px;
+
+}
+
+
+
+
+.buycrypto {
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+   position: absolute;
+   right: 50px;
+   border-radius: 2rem;
+   bottom: 40px;
+   display: flex;
+   /* width: 50px; */
+   background-color: #0C6CF2;
+   border: 1px solid black;
+   padding: 1rem 1.2rem;
 
 }
