@@ -1,15 +1,21 @@
-*{
+* {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+.herobg {
+    background-image: url(media/home-hero-gradient.svg);
+}
+
+
 /* 
 ===============
 Hero section
 =============== 
 */
-.hero-sec{
+
+.hero-sec {
     background-image: url("images/hero\ section\ bg.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -23,52 +29,53 @@ Hero section
     color: rgb(255, 255, 255);
 }
 
+
 /* hero section one */
 
-.hero-sec-one{
-    
+.hero-sec-one {
     /* border: 3px solid green; */
-   padding: 10.625rem  0;
-   /* margin: 0 19em 0 0; */
+    padding: 10.625rem 0;
+    /* margin: 0 19em 0 0; */
 }
-.h-s-1-head{
+
+.h-s-1-head {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     line-height: 3.625rem;
     font-weight: 600;
 }
-.h-s-1-para{
+
+.h-s-1-para {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 2.125rem;
-
 }
 
-.hero-sec-one-btns{
-    
-    
-}
+.hero-sec-one-btns {}
 
-
-#hs-btn-1{
+#hs-btn-1 {
     font-weight: 500;
     font-size: 1.125rem;
     border: 0.125rem solid transparent;
     border-radius: 0.5rem;
     padding: 0.75rem 1.37rem;
-    background-color:  rgb(12, 108, 242);;
-    color: rgb(255, 255 ,255);
+    background-color: rgb(12, 108, 242);
+    ;
+    color: rgb(255, 255, 255);
     line-height: 144%;
 }
-#hs-btn-1 a{
+
+#hs-btn-1 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-#hs-btn-1:hover{
+
+#hs-btn-1:hover {
     color: rgb(255, 255, 255);
- background-color:  rgb(20, 70, 153);
+    background-color: rgb(20, 70, 153);
 }
+
 #hs-btn-2 {
     font-weight: 500;
     font-size: 1.125rem;
@@ -82,42 +89,45 @@ Hero section
     margin-left: 1.5rem;
     background-color: #ffffff;
     border: none;
+}
 
-}
-#hs-btn-2 a{
+#hs-btn-2 a {
     text-decoration: none;
-   
 }
+
+
 /* hero section two */
-.hero-sec-two{
+
+.hero-sec-two {
     position: absolute;
     bottom: -9rem;
     /* border: 3px solid pink; */
-/* display: flex;
+    /* display: flex;
 flex-direction: row; */
-margin-bottom: 1.25rem;
-padding: 1.25rem 0;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem 0;
 }
-.hero-cards{
+
+.hero-cards {
     display: flex;
     gap: 2rem;
-    
 }
-.hero-sec-blocks{
+
+.hero-sec-blocks {
     background-color: #ffffff;
     border: 1px solid transparent;
-    padding: 1.25rem ;
+    padding: 1.25rem;
     border-radius: 0.5rem;
     margin-bottom: 1.25rem;
     box-shadow: rgb(103 113 133 / 20%) 0.75rem 1.5rem 4rem 0rem;
     cursor: pointer;
-    
-
 }
-.hero-sec-blocks a{
+
+.hero-sec-blocks a {
     text-decoration: none;
 }
-.b-logo-btn{
+
+.b-logo-btn {
     /* border: 1px solid black; */
     justify-content: space-between;
     display: flex;
@@ -125,18 +135,16 @@ padding: 1.25rem 0;
     gap: 2.9rem;
     margin-bottom: 0.5rem;
     /* gap: 0.5rem; */
-
-    
-
 }
+
+
 /* .trade-buy-btns{
     display: flex;
     /* align-items: flex-start;
     justify-content: flex-end;
     gap: 0.5rem; */
 
-
-.buy-btn{
+.buy-btn {
     box-shadow: rgb(103 113 133 / 20%) 0.7;
     background-color: rgb(239, 236, 254);
     border-radius: 0.25rem;
@@ -149,12 +157,12 @@ padding: 1.25rem 0;
     line-height: 1.25rem;
     transition: background-color 0.3s cubic-bezier(0.25, 0.1, 0.39, 0.84) 0s;
 }
-.buy-btn:hover{
-    background-color: rgb(222, 216, 253);
-}       
-  
 
-.trade-btn{
+.buy-btn:hover {
+    background-color: rgb(222, 216, 253);
+}
+
+.trade-btn {
     box-shadow: rgb(103 113 133 / 20%) 0.7;
     cursor: pointer;
     padding: 0.25rem 0.5rem;
@@ -164,12 +172,13 @@ padding: 1.25rem 0;
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 1.25rem;
-  
 }
-.trade-btn a{
+
+.trade-btn a {
     text-decoration: none;
     color: rgb(0, 153, 76);
 }
+
 #buy-btn-new {
     box-shadow: rgb(103 113 133 / 20%) 0.7;
     background-color: rgb(239, 236, 254);
@@ -182,45 +191,46 @@ padding: 1.25rem 0;
     font-size: 0.875rem;
     line-height: 1.25rem;
     transition: background-color 0.3s cubic-bezier(0.25, 0.1, 0.39, 0.84) 0s;
-
 }
 
-
-.b-coin-name{
+.b-coin-name {
     display: flex;
     color: rgb(18, 29, 51);
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
 }
-.block-2-peras{
+
+.block-2-peras {
     font-weight: 500;
     font-size: 1rem;
     margin-left: 0.5rem;
     color: rgb(103, 113, 133);
     line-height: 1.5rem;
-}  
-.b-coin-price{
+}
+
+.b-coin-price {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
     display: flex;
     color: rgb(18, 29, 51);
 }
- 
 
-.block-2-percent{
+.block-2-percent {
     margin-left: 0.5rem;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
     color: rgb(255, 68, 58);
 }
-.deso-png{
+
+.deso-png {
     height: 2.5rem;
     width: 2.5rem;
 }
-.hero-sec-2-arrow-text{
+
+.hero-sec-2-arrow-text {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -228,9 +238,11 @@ padding: 1.25rem 0;
     align-items: center;
     text-align: end;
 }
-.hero-sec-2-arrow-text  a{
+
+.hero-sec-2-arrow-text a {
     text-decoration: none;
 }
+
 .hero-sec-2-arrow-text p {
     color: rgb(18, 29, 51);
     font-size: 0.875rem;
@@ -238,38 +250,49 @@ padding: 1.25rem 0;
     font-weight: 500;
     margin-right: 0.5rem;
 }
-#hero-sec-2-arrow{
+
+#hero-sec-2-arrow {
     cursor: pointer;
 }
+
+
 /* <!-- =================
 exchange section 
 ================= --> */
-.main-exchange-section{
+
+.main-exchange-section {
     display: flex;
     margin-top: 20rem;
     padding: 0 2.5rem;
     border: 5px solid goldenrod;
 }
-.exchange-section-images{
+
+.exchange-section-images {
     width: 50%;
     padding-left: 8.75rem;
 }
-.sec-elements{
+
+.sec-elements {
     width: 50%;
     padding: 6.25rem 0 6.25rem 5rem;
 }
-.exchange-logo-text{
+
+.exchange-logo-text {
     display: flex;
-   justify-content: start;
+    justify-content: start;
 }
+
+
 /* =============
 institutional section
 ============ */
-.main-institutional-sec{
+
+.main-institutional-sec {
     padding: 0 2.5rem;
     margin-top: 20rem;
 }
-.institutional-sec{
+
+.institutional-sec {
     background-color: rgb(240, 242, 247);
     background-image: url("images/home-institutional-shapes-bg@2x.png");
     background-position: right center;
@@ -283,10 +306,9 @@ institutional section
     color: rgb(18, 29, 51);
     margin: 0 auto;
     /* margin: 12rem 7.5rem 5rem 7.5rem; */
-    
 }
 
-.sec-content{
+.sec-content {
     /* display: inline-flex; */
     /* display: flex;
     flex-direction: column;
@@ -295,8 +317,9 @@ institutional section
     /* margin: 2rem 5rem ; */
     padding: 5rem 2.25rem 8.25rem 8.75rem;
 }
-.logotext{
-    display:  inline-flex;
+
+.logotext {
+    display: inline-flex;
     justify-content: flex-start;
     flex-direction: row;
     padding: 1rem;
@@ -305,20 +328,21 @@ institutional section
     background-color: rgb(223, 227, 235);
     color: rgb(103, 113, 133);
     border-radius: 1.25rem;
-   
-    
 }
-.logo-name{
+
+.logo-name {
     font-size: 1.125rem;
     line-height: 1.562rem;
     margin-left: 0.625rem;
 }
-.institutional-sec-head{
+
+.institutional-sec-head {
     margin: 0 0 1.875rem 0;
     font-size: 2.5rem;
     font-weight: 600;
 }
-.institutional-sec-btn{
+
+.institutional-sec-btn {
     margin: 1.9rem 0 0 0;
     border: 2px solid transparent;
     padding: 0.75rem 1.375rem;
@@ -329,11 +353,426 @@ institutional section
     background: rgb(103, 113, 133);
     line-height: 144%;
     cursor: pointer;
-
 }
-.institutional-sec-para{
+
+.institutional-sec-para {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(18, 29, 51);
+    padding: 1em 0 1em 0;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.info {
+    text-align: center;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, rgb(9, 86, 191), rgb(4, 64, 143), rgb(2, 54, 120), rgb(4, 64, 143), rgb(9, 86, 191));
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    z-index: 10;
+}
+
+
+/* #imgchange {
+   position: fixed;
+   background-position: center;
+   width:3rem ;
+   bottom: 50px;
+   right: 30px;
+   padding: 2rem;
+   border-radius: 50%;
+   background-image: url("media/BTC\ icon.svg");
+   background-repeat: no-repeat;
+   background-color: #0C6CF2;
+   animation: rotation 3s infinite ;
+   transform-style: preserve-3d;
+} */
+
+#imgchange {
+    display: flex;
+    gap: 0.5rem;
+    position: fixed;
+    background-position: center;
+    width: fit-content;
+    bottom: 50px;
+    right: 30px;
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: #0C6CF2;
+    border: none;
+}
+
+#imgchange p {
+    display: none;
+}
+
+#changecoin {
+    animation: rotation 2s infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+#imgchange:hover {
+    border-radius: 3rem;
+    padding-right: 1rem;
+}
+
+#imgchange:hover p {
+    display: inline;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.menuLogo {
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.mainlogo {
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+    margin-right: 1em;
+    justify-content: center;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.headerlist {
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(204, 210, 222);
+    font-size: 1rem;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8em;
+    margin-right: 5em;
+}
+
+.header-btn1 {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    border: 0.125em solid white;
+    border-radius: 10%;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0em 1.3em 0em 0em;
+}
+
+.header-btn2 {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    border: 0.125em solid rgb(252, 252, 252);
+    border-radius: 10%;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 0em 1.3em 0em 0em;
+}
+
+.header-btn3 {
+    border: 0.01em solid black;
+    margin-right: 0.7em;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border-radius: 50%;
+}
+
+.hovermenu {
+    border: 0.5px solid gray;
+    position: absolute;
+    left: 25rem;
+    border-radius: 1.3rem;
+    background-color: white;
+    width: 350px;
+    padding: 3em 10em;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    z-index: 10;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#dotmenu:hover .hovermenu {
+    visibility: visible;
+}
+
+.media:hover {
+    visibility: initial;
+}
+
+.wallet-ratio {
+    margin: 0em 0em 0em 6em;
+}
+
+.wallet-section {
+    background-color: rgba(239, 236, 254, 0.5);
+    background-repeat: no-repeat;
+    background-size: 625px;
+    background-position: right bottom 2.5rem;
+    background-image: url("media/walletBg.png");
+    margin: 3em 7em 3em 7em;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.walletright {
+    margin-right: 10rem;
+}
+
+.walletleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-right: 3em;
+}
+
+.wallet-logo {
+    display: inline-flex;
+    justify-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 236, 254);
+    padding: 1rem;
+    width: fit-content;
+    margin-top: 2rem;
+    color: rgb(115, 73, 242);
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 1rem;
+    border-radius: 1.25rem;
+}
+
+.walletsvg {
+    padding: 0;
+    width: 1.7rem;
+}
+
+.text {
+    color: rgb(115, 73, 242);
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(115, 73, 242);
+    font-size: 2.5rem;
+    font-weight: 630;
+    text-align: left;
+    padding: 0em;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.getStarted {
+    color: rgb(255, 255, 255);
+    background: rgb(115, 73, 242);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5em 0.8em;
+    border-radius: 0.5rem;
+    border: 0.125rem solid transparent;
+    margin-bottom: 2.5em;
+}
+
+.walletbtn {
+    font-size: 2rem;
+}
+
+.pannel {
+    background-color: rgb(239, 236, 254);
+    display: none;
+    overflow: hidden;
+    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 1em 0em 1em 1em;
+    color: rgb(115, 73, 242);
+    position: relative;
+    top: -2rem;
+    border-bottom: 1px solid rgb(222, 216, 253);
+    border-radius: 0.75rem;
+    transition: 0.5s ease-in;
+    transition-timing-function: ease-in;
+}
+
+.accordion {
+    color: rgb(115, 73, 242);
+    text-align: left;
+    background-color: rgb(249, 249, 250);
+    border-radius: 0.75rem;
+    border: 1px solid rgb(222, 216, 253);
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    padding: 1em 0em 1em 1em;
+    color: rgb(115, 73, 242);
+    cursor: pointer;
+    width: 100%;
+}
+
+.active {
+    background-color: rgb(239, 236, 254);
+}
+
+.footerup {
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 {
+    flex: 2;
+    margin-left: 18rem;
+    margin-right: -18rem;
+    margin-bottom: 20rem;
+}
+
+.footer2,
+.footer3,
+.footer4 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex: 1;
+}
+
+#footerheading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: rgb(18, 29, 51);
+}
+
+#sechead {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(18, 29, 51);
+}
+
+.products,
+.resources,
+.company,
+.social {
+    color: rgb(103, 113, 133);
+    font-weight: 500;
+}
+
+.socialicons {
+    width: 1.5rem;
+    margin-right: 2rem;
+}
+
+.social {
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+    text-align: left;
+}
+
+#hire {
+    font-size: 0.75rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 108, 242);
+    border-radius: 0.25rem;
+    font-weight: 500;
+    padding: 0.125rem 0.25rem;
+}
+
+.lang {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+    margin-left: -0.05rem;
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    color: rgb(103, 113, 133);
+    font-weight: 400;
+}
+
+.footerbotm {
+    margin-bottom: 7rem;
+}
+
+.footerdown {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.downleft {
+    display: flex;
+    gap: 1.5em;
+    /* border: 1px solid blue; */
+    align-items: center;
+    margin-top: -2em;
+}
+
+.applogo {
+    width: 9rem;
+}
+
+#lang {
+    font-size: 1rem;
+    color: rgb(103, 113, 133);
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    width: 200px;
+}
+
+.buycrypto {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    position: absolute;
+    right: 50px;
+    border-radius: 2rem;
+    bottom: 40px;
+    display: flex;
+    /* width: 50px; */
+    background-color: #0C6CF2;
+    border: 1px solid black;
+    padding: 1rem 1.2rem;
+}
+
+.hoverfooter:hover {
+    color: #0C6CF2;
+    cursor: pointer;
+    transition: color 0.5s ease 0s
+}
