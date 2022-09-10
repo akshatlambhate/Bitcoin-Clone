@@ -213,6 +213,7 @@
     border-radius: 1.25rem;
 
 
+
  }
  .walletsvg{
     padding: 0;
@@ -234,6 +235,20 @@
     margin-top: 2rem;
 
 }
+.explore-ratio {
+      color:rgb(242, 139, 36);;
+      font-size: 2.5rem;
+      font-weight: 500;
+      font-size: 2.5rem;
+      font-weight: 630;
+      text-align: left;
+      padding: 0em;
+      margin: 0;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+  
+  
+}
 
 .getStarted {
    color: rgb(255, 255, 255);
@@ -246,11 +261,58 @@
     margin-bottom: 2.5em;
 
 }
+.exp-getStarted {
+   color: rgb(255, 255, 255);
+   background: #F28B24;
+   font-size: 1.2rem;
+   font-weight: 600;
+   padding: 0.5em 0.8em;
+   border-radius: 0.5rem;
+    border: 0.125rem solid transparent;
+    margin-bottom: 2.5em;
+
+}
+#explore-accor li {
+   color: rgb(242, 139, 36);
+     padding: 1.2em 1em;
+      background-color: rgba(255, 242, 229, 0.5);
+    border-radius: 0.75rem;
+    border: 1px solid rgb(222, 216, 253);
+    margin-bottom: 0.5em;
+
+}
+#explore-accor li label {
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   font-weight: 500;
+
+ }
+
+ #explore-accor label + input[type=radio]{
+   display: none;
+      
+ }
+ #explore-accor .exp-content {
+   /* border: 1px solid white; */
+   padding: 6px 0px;
+   max-height: 0;
+   overflow: hidden;
+
+ }
+ #explore-accor label + input[type=radio]:checked + .exp-content {
+   max-height: 400px;
+ }
+ .exp-right {
+   margin-right: 10rem;
+
+ }
 .walletbtn{
    font-size: 2rem;
 }
+
 .pannel {
-   background-color: rgb(239, 236, 254);
+   background-color:#FFE1BF;
    display: none;
    overflow: hidden;
    font-size: 1.2rem;
@@ -263,6 +325,63 @@
    border-radius: 0.75rem;
    transition: 0.5s ease-in;
    transition-timing-function: ease-in;
+ }
+ 
+ .accor {
+  list-style: none;
+ }
+ .exp-accor {
+   list-style: none;
+ }
+
+
+#wallet-accor {
+   margin-right: 7em;
+}
+ #wallet-accor li {
+   border: 1px solid red;
+   padding: 1.2em 1em;
+   color: rgb(115, 73, 242);
+    background-color: rgb(239, 236, 254);
+    border-radius: 0.75rem;
+    border: 1px solid rgb(222, 216, 253);
+    margin-bottom: 0.5em;
+ }
+ 
+ #wallet-accor li label {
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   font-weight: 500;
+
+ }
+
+ #wallet-accor label + input[type=radio]{
+   display: none;
+      
+ }
+ #wallet-accor .content {
+   /* border: 1px solid white; */
+   padding: 6px 0px;
+   max-height: 0;
+   overflow: hidden;
+
+ }
+ #wallet-accor label + input[type=radio]:checked + .content {
+   max-height: 400px;
+ }
+ #exploresvg {
+   width: 80px;
+ }
+
+ #explore-logo {
+   background-color: rgb(255, 242, 229);
+   color: rgb(242, 139, 36);
+ }
+ #explore-section {
+   background-color: rgba(255, 242, 229, 0.5);
+   background-image: url("media/explorer.png");
+   color: rgb(242, 139, 36);
  }
  .accordion {
   color: rgb(115, 73, 242);
